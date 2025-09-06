@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chat App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h2>ChatApp</h2>
+      <div class="user-area">
+        <input id="username" placeholder="Enter username">
+        <button id="loginBtn">Login</button>
+      </div>
+      <ul id="rooms"></ul>
+    </aside>
+    <main class="chat">
+      <header id="chatHeader">Public Room</header>
+      <div id="messages" class="messages"></div>
+      <div class="compose">
+        <input id="messageInput" placeholder="Type a message...">
+        <button id="sendBtn">Send</button>
+      </div>
+    </main>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
